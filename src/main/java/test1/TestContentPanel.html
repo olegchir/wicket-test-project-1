@@ -5,11 +5,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
     xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
 <body>
-<form wicket:id="testModalWindow1Form">
-	<div wicket:id="testModalWindow1" />
-	<input wicket:id="testModalWindow1ShowButton" value="Show window 1" type="submit"/>
+<wicket:panel>
+<span wicket:id="message2" id="message2">Message goes here</span><br/>
+<form wicket:id="testModalWindow2Form">
+	<div wicket:id="testModalWindow2" />
+	<input wicket:id="testModalWindow2ShowButton" value="Show window 2" type="submit"/>
 </form>  
 <span wicket:id="message" id="message">Message goes here</span>
+</wicket:panel> 
 </body>
 </html>
 
